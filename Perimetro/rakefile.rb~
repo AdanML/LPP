@@ -1,0 +1,6 @@
+# require "circunferencia"
+# require 'tc_circunferencia'
+ 
+task :test do
+   ruby -I. "tc_circunferencia.rb"
+end
